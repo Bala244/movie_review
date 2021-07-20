@@ -1,3 +1,38 @@
 // Place all the styles related to the Movies controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.image{
+	width: 250px;
+	height: auto;
+}
+
+body {
+	background: #AA4847;
+}
+
+.review_title {
+	margin: 0 0 20px 0;
+}
+.thumbnail{
+	border: 3px solid #fff;
+}
+.reviews {
+	padding: 15px 0;
+	border-bottom: 1px solid #EAEAEA;
+	.star-rating {
+		padding-bottom: 8px;
+	}
+}
+.container{
+	background: #fff;
+}
+.panel.panel-default{
+	padding: 10px;
+}
+
+@media (max-width: 767px){
+	.image{
+		width: 100%;
+	}
+}
