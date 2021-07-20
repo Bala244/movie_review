@@ -10,7 +10,11 @@
 body {
 	background: #AA4847;
 }
-
+.field{
+	display: flex;
+	flex-direction: column;
+    width: 242px;
+}
 .review_title {
 	margin: 0 0 20px 0;
 }
